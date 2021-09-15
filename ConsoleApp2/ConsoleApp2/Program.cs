@@ -6,8 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            double a = 1.36;
-            Console.WriteLine(a);
+            double e = 2.7;
+            Console.WriteLine(e);
         }
     }
 }
