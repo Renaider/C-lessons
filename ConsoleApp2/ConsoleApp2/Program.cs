@@ -6,8 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("5 10");
-            Console.WriteLine("7 см");
+            Console.WriteLine("2 кг");
+            Console.WriteLine("13 17");
         }
     }
 }
