@@ -6,8 +6,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            double e = 2.7;
-            Console.WriteLine(e);
+            string a;
+            a = Console.ReadLine();
+            Console.WriteLine("Вы ввели число " + a);
         }
     }
 }
