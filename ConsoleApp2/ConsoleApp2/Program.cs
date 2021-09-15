@@ -6,8 +6,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("2 кг");
-            Console.WriteLine("13 17");
+            string a = Console.ReadLine();
+            int x = Convert.ToInt32(a);
+            int y = 7 * x * x + 3 * x + 6;
+            Console.WriteLine(y);
         }
     }
 }
