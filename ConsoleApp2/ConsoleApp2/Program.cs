@@ -6,8 +6,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("50");
+            Console.WriteLine("5");
             Console.WriteLine("10");
+            Console.WriteLine("21");
         }
     }
 }
