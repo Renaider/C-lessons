@@ -6,9 +6,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string a;
-            a = Console.ReadLine();
-            Console.WriteLine(a + " - вот какое число Вы ввели");
+            Console.WriteLine("1 " + "13 " + "49");
         }
     }
 }
