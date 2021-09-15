@@ -8,8 +8,8 @@ namespace ConsoleApp2
         {
             string b = Console.ReadLine();
             int a = Convert.ToInt32(b);
-            int S = 4 * a;
-            Console.WriteLine(S);
+            int d = 2 * a;
+            Console.WriteLine(d);
         }
     }
 }
