@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             string a;
             a = Console.ReadLine();
-            Console.WriteLine("Вы ввели число " + a);
+            Console.WriteLine(a + " - вот какое число Вы ввели");
         }
     }
 }
