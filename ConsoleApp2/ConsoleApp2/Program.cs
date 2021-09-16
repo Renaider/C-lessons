@@ -6,11 +6,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Радиус окружности:");
+            Console.WriteLine("Число 1:");
+            string c = Console.ReadLine();
+            int d = Convert.ToInt32(c);
+            Console.WriteLine("Число 2:");
             string b = Console.ReadLine();
-            int r = Convert.ToInt32(b);
-            Console.WriteLine("Длина окружности: " + 2*r*3.14 );
-            Console.WriteLine("Площадь круга: " + 3.14*r*r);
+            int a = Convert.ToInt32(b);
+            Console.WriteLine("Среднее арифметическое: " + (double)(d+a)/2 );
+            Console.WriteLine("Среднее геометрическое: " + Math.Sqrt(d*a));
         }
     }
 }
