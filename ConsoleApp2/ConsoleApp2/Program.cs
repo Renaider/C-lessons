@@ -6,13 +6,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Внешний радиус:");
+            Console.WriteLine("Катет 1:");
             string c = Console.ReadLine();
             int a = Convert.ToInt32(c);
-            Console.WriteLine("Внутренний радиус:");
+            Console.WriteLine("Катет 2:");
             string d = Console.ReadLine();
             int b = Convert.ToInt32(d);
-            Console.WriteLine("Площадь кольца: " + 3.14*(a*a-b*b));
+            double g = Math.Sqrt(a * a + b * b);
+            Console.WriteLine("Периметр прямоугольного треугольника: " + (Math.Sqrt(a * a + b * b) + a + b));
         }
     }
 }
