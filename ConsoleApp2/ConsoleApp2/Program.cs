@@ -6,11 +6,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Длина ребра куба:"); 
+            Console.WriteLine("Радиус окружности:");
             string b = Console.ReadLine();
-            int a = Convert.ToInt32(b);
-            Console.WriteLine("Объём куба: " + a*a*a);
-            Console.WriteLine("Площадь боковой поверхности: " + 4*a*a);
+            int r = Convert.ToInt32(b);
+            Console.WriteLine("Длина окружности: " + 2*r*3.14 );
+            Console.WriteLine("Площадь круга: " + 3.14*r*r);
         }
     }
 }
