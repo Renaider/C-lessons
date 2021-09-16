@@ -6,20 +6,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Коэффициент a:");
+            Console.WriteLine("Катет 1:");
             string c = Console.ReadLine();
-            if (c != "0")
-            {
-                int a = Convert.ToInt32(c);
-                Console.WriteLine("Свободный член b:");
-                string d = Console.ReadLine();
-                int b = Convert.ToInt32(d);
-                Console.WriteLine("Решение уравнения ax+b=0: " + (double)-b / a);
-            }
-            else
-            {
-                Console.WriteLine("Коэффициент a не может быть равен 0, введите другое значение");
-            }
+            int a = Convert.ToInt32(c);
+            Console.WriteLine("Катет 2:");
+            string d = Console.ReadLine();
+            int b = Convert.ToInt32(d);
+            Console.WriteLine("Гипотенуза: " + Math.Sqrt(a*a+b*b));
         }
     }
 }
