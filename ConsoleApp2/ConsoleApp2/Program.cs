@@ -6,17 +6,19 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Сторона 1:");
+            Console.WriteLine("Координаты точки 1 по оси абсцисс:");
             string f = Console.ReadLine();
-            int a = Convert.ToInt32(f);
-            Console.WriteLine("Сторона 2:");
+            int x1 = Convert.ToInt32(f);
+            Console.WriteLine("Координаты точки 1 по оси ординат:");
             string d = Console.ReadLine();
-            int b = Convert.ToInt32(d);
-            Console.WriteLine("Сторона 3:");
+            int y1 = Convert.ToInt32(d);
+            Console.WriteLine("Координаты точки 2 по оси абсцисс:");
+            string c = Console.ReadLine();
+            int x2 = Convert.ToInt32(c);
+            Console.WriteLine("Координаты точки 2 по оси ординат:");
             string g = Console.ReadLine();
-            int c = Convert.ToInt32(g);
-            Console.WriteLine("Объём параллелепипеда: " + (a*b*c));
-            Console.WriteLine("Площадь боковой поверхности: " + (2*a*c+2*b*c));
+            int y2 = Convert.ToInt32(g);
+            Console.WriteLine("Расстояние между точками: " + Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)));
         }
     }
 }
