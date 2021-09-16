@@ -6,11 +6,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int r = 6350;
-            Console.WriteLine("Высота: "); 
+            Console.WriteLine("Длина ребра куба:"); 
             string b = Console.ReadLine();
-            int h = Convert.ToInt32(b);
-            Console.WriteLine("Расстояние до горизонта: " + Math.Sqrt((r + h) * (r + h) - r*r));
+            int a = Convert.ToInt32(b);
+            Console.WriteLine("Объём куба: " + a*a*a);
+            Console.WriteLine("Площадь боковой поверхности: " + 4*a*a);
         }
     }
 }
