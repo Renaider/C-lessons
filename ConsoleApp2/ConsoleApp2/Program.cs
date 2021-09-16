@@ -6,13 +6,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Масса (кг):");
+            Console.WriteLine("Количество жителей:");
             string a = Console.ReadLine();
             int m = Convert.ToInt32(a);
-            Console.WriteLine("Объём (м^3):");
+            Console.WriteLine("Площадь государства:");
             string b = Console.ReadLine();
-            int v = Convert.ToInt32(b);
-            Console.WriteLine("Плотность (кг/м^3): " + (double)m/v);
+            int s = Convert.ToInt32(b);
+            Console.WriteLine("Плотность населения: " + (double)m/s);
         }
     }
 }
