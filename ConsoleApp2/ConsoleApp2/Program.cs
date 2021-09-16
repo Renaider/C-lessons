@@ -6,13 +6,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Катет 1:");
+            Console.WriteLine("Внешний радиус:");
             string c = Console.ReadLine();
             int a = Convert.ToInt32(c);
-            Console.WriteLine("Катет 2:");
+            Console.WriteLine("Внутренний радиус:");
             string d = Console.ReadLine();
             int b = Convert.ToInt32(d);
-            Console.WriteLine("Гипотенуза: " + Math.Sqrt(a*a+b*b));
+            Console.WriteLine("Площадь кольца: " + 3.14*(a*a-b*b));
         }
     }
 }
