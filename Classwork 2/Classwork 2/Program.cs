@@ -43,16 +43,6 @@ namespace Classwork_2
             Console.WriteLine("Имя " + name + "\n" + "Город " + town + "\n" + "Возраст " + age + "\n" + "ПИН-КОД " + PIN + "\n");
             //Упражнение 3
             Console.WriteLine("Упражнение 3");
-            Console.WriteLine("Введите строчные буквы");
-            string letter = Console.ReadLine();
-            string letterup = letter.ToUpper();
-            Console.WriteLine(letterup);
-            Console.WriteLine("Введите прописные буквы ");
-            string letterlow = Console.ReadLine();
-            string letter_low = letterlow.ToLower();
-            Console.WriteLine(letter_low);
-            //Упражнение 4
-            Console.WriteLine("Упражнение 4");
             Console.WriteLine("3)\n");
             Console.WriteLine("Введите строку\n");
             string str = Console.ReadLine();
@@ -69,6 +59,16 @@ namespace Classwork_2
                 }
             }
             Console.WriteLine(new_str + "\n");
+            //Упражнение 4
+            Console.WriteLine("Упражнение 4");
+            string text = "как хорошо учиться на прикладной математике ";
+            int n = 0;
+            foreach (char c in text)
+            {
+                if (c == 'о')
+                    n++;
+            }
+            Console.WriteLine(n);
             //Упражнение 5
             Console.WriteLine("Упражнение 5");
             double speed1 = double.Parse(Console.ReadLine()); // км/ч
