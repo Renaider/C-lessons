@@ -9,7 +9,7 @@ using System.Threading;
 
 namespace Lesson_4
 {
-    class Classwork
+    class Classwork //
     {
         static void SolveSquareEquation(double a, double b, double c) //метод для упражнение 1, решение квадратного уравнения
         {

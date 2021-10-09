@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework_from_lab
 {
-    class Program
+    class Homework_from_lab //
     {
         static int[] SortQuick(int[] array, int min_index, int max_index) //метод для упражнения 1, быстрая сортировка
         {

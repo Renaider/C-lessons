@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework
 {
-    class Homework
+    class Homework //
     {
         static double CompareNumbers(double number_1, double number_2) //метод для упражнения 5.1, определение большего числа
         {
