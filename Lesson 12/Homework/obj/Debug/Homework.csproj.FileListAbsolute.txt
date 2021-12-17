@@ -1,0 +1,7 @@
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\bin\Debug\Homework.exe.config
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\bin\Debug\Homework.exe
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\bin\Debug\Homework.pdb
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\obj\Debug\Homework.csproj.AssemblyReference.cache
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\obj\Debug\Homework.exe
+C:\Users\Kpaq\Desktop\VS Projects\Lesson 12\Homework\obj\Debug\Homework.pdb
